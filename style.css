@@ -190,3 +190,26 @@
 #marr{
     margin-left: 28px;
 }
+.abs{
+    position: relative;
+    
+.smallbox{
+    background-color:#fcc50b;
+    color: black;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    position: absolute;
+    justify-content: center;
+    left:8%;
+    bottom: -4%;
+    font-weight: 700;
+    border: 1px solid white;
+    
+}
+.margg{
+    margin-top: 15px;
+}
+.btnmarg{
+    margin-top: 8px;
+}
