@@ -194,18 +194,20 @@
     position: relative;
     
 }
-.smallbox{
-    background-color:#fcc50b;
+.smallbox {
+    background-color: #fcc50b;
     color: black;
     width: 200px;
     height: 25px;
     border-radius: 10px;
     position: absolute;
     justify-content: center;
-    left:8%;
+    left: 50%; /* Adjusted */
+    transform: translateX(-50%);
     bottom: -4%;
     font-weight: 700;
     border: 1px solid white;
+}
     
 }
 .margg{
